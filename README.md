@@ -1,7 +1,8 @@
 # CanvasQuizMarker
-Two scripts to parse students' quiz scores and write to their grades
+Two scripts to parse students' quiz scores and write to their grades.
 
 
+## Intention
 The scripts fixes the two issues with the defaut Canvas Quiz mark allocatons:
 1. Incorrect scores. Canvas assumes each question in quizzes is worth 1 mark, so each quiz with N questions was allocated N marks while in practice they might be evaluated differently.
 2. No time restriction. In case Canvas does not exclude the attempts after the due date.
